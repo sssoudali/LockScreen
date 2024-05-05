@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/RelativeLayout"
+    tools:context=".MainActivity"
+    tools:ignore="InvalidId">
+
+    <TextView
+        android:id="@+id/headingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logoImageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="149dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Screen Lock"
+        android:textColor="@color/black"
+        android:textSize="175px" />
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+        android:layout_centerInParent="true"
+
+        />
+    <TextView
+        android:id="@+id/PowerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/homoarakhn"
+        android:text="Powered By AIONS"
+        android:textColor="@color/white"
+        android:background="#000000"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        />
+
+    </RelativeLayout>
